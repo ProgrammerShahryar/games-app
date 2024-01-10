@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+<head>
+    <title>Add Game | My Games App</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <header>
+            <div class="identity">
+                <img src="../../images/logo.png" alt="My Games App">
+                <h1>Games App</h1>
+            </div>
+            <nav id="main-menu">
+                <a href="/">Home</a>
+                <a href="/pages/add/index.html">Add</a>
+                <a href="/pages/list/index.html">List</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="content">
+                <h2>Add Game</h2>
+
+                <form id="game-add-form">
+                    <div class="field">
+                        <label for="game-title">Title:</label>
+                        <input id="game-title" type="text" maxlength="50">
+                    </div>
+
+                    <div class="field">
+                        <label for="game-genre">Genre:</label>
+                        <select id="game-genre">
+                            <option value="">- Select -</option>
+                            <option value="Action">Action</option>
+                            <option value="Puzzle">Puzzle</option>
+                            <option value="Adventure">Adventure</option>
+                        </select>
+                    </div>
+
+                    <div class="checkbox">
+                        <input id="has-finished-game" type="checkbox">
+                        <label for="has-finished-game">Has Finished</label>
+                    </div>
+
+                    <button type="button">Add Game</button>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            Copyright &copy; 2023. All rights reserved.
+        </footer>
+
+    </div>
+</body>
+
+</html>
